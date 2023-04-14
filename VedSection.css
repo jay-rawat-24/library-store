@@ -1,0 +1,90 @@
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 80vh;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.ved{
+    height: 80vh;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit: contain;
+}
+
+.ved>h1{
+    color: rgb(236, 115, 115);
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 3rem;
+    border-radius: 12px 13px 13px 14px;
+}
+
+.ved>p{
+    width: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: -14px;
+   margin-left: 3rem;
+   font-weight: bold;
+   background-color:rgb(30, 19, 19);
+   color: rgb(234, 171, 171);
+   font-size: 32px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   border-radius: 12px 13px 13px 14px;
+}
+
+.ved-btn{
+    margin-top: 32px;
+    margin-left: -16em;
+    padding: 2em;
+   
+}
+.btns{
+    width: 11em;
+    height: 2em;
+    padding-top: 1.3rem;
+
+    margin-left:35.5em;
+    background: linear-gradient(90deg, rgb(53, 52, 51) 0%, rgb(209, 91, 176) 100%);
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+.btns1{
+    width: 11em;
+    height: 2em;
+    background: linear-gradient(90deg, rgb(137, 163, 218) 0%, rgb(71, 32, 32) 100%);
+    color: rgb(16, 14, 14);
+    padding-top: 1.3rem;
+
+    margin-left:35.5em;
+
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+.btns1:hover{
+    background: linear-gradient(90deg, rgb(45, 45, 46) 0%, rgb(27, 141, 228) 100%);
+    color: rgb(221, 207, 207);
+    border-radius: 14px 12px 12px 14px;
+    cursor: pointer;
+}
+.btns:hover{
+    background: linear-gradient(90deg, rgb(167, 107, 186) 0%, rgb(39, 19, 19) 100%);
+    color: rgb(255, 239, 239);
+    border-radius: 14px 12px 12px 14px;
+    cursor: pointer;
+}
+
+.ved-btn .btn{
+    margin: 6px;
+}
+

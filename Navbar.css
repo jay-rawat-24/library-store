@@ -1,0 +1,136 @@
+.navbar {
+    background: linear-gradient(180deg, rgb(213, 114, 114) 0%, rgb(27, 21, 21) 100%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: -2rem; */
+    height: 80px;
+    max-width: 150px;
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight:bolder;
+    display: flex;
+    align-items: center;
+  }
+  
+  .fa-book {
+    margin-left: 0.5rem;
+    font-size: 1.8rem;
+    color: aliceblue;
+    
+  }
+
+  .fa-solid {
+    color: aliceblue;
+  }
+  
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 2rem;
+  }
+
+   .home , .services , .products ,.about {
+       font-size: 22px; 
+   }
+   
+   .nav-signup{
+    font-size: 22px; 
+    color: aliceblue;
+    padding-bottom:-1rem;
+    margin-right: -28rem;
+    border-style:hidden;
+    text-decoration: none;
+
+    
+   }
+   .nav-discord{
+    font-size: 22px; 
+    color: aliceblue;
+    padding-top:0rem;
+    margin-left: 1rem;
+    border-style:hidden;
+    text-decoration: none;
+   }
+     
+   .nav-signup:hover{
+    color: aqua;
+    font-size: 26px;
+  }
+
+  .nav-discord:hover{
+    color: aqua;
+    font-size: 26px;
+  }
+   
+  .nav-home   {
+   color: aliceblue;
+   text-decoration: none;
+    }
+
+    .nav-home:hover{
+      color: aqua;
+      font-size: 26px;
+      
+    }
+
+    .nav-services{
+      color: aliceblue;
+      margin-left: 2rem;
+      text-decoration: none;
+    }
+
+    .nav-services:hover{
+      color: aqua;
+      font-size: 26px;
+    }
+
+    .nav-products:hover{
+      color: aqua;
+      font-size: 26px;
+    }
+
+    .nav-products{
+      color: aliceblue;
+      margin-left: 2rem;
+      text-decoration: none;
+    }
+
+   
+  
+  .fa-bars {
+    color: #fff;
+  }
+  
+  .nav-links-mob {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  
